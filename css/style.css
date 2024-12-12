@@ -1,0 +1,56 @@
+/* Estilos gerais */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+#menu, #scoreboard, #records {
+    display: none;
+}
+
+#gameCanvas {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
+#menu {
+    display: block;
+}
+
+#scoreboard {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 20px;
+}
+
+#scoreboard .score, #scoreboard .lives {
+    font-size: 18px;
+}
+
+#records {
+    display: none;
+    color: white;
+    text-align: center;
+}
+
+#recordsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#recordsList li {
+    font-size: 20px;
+}
+
+/* Função de mostrar/ocultar */
+.hidden {
+    display: none;
+}

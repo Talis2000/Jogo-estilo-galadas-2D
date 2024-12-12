@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nine dedos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Menu Principal -->
+    <div id="menu">
+        <h1>LULENine</h1>
+        <label for="playerName">Nome do Jogador:</label>
+        <input type="text" id="playerName" placeholder="Insira seu nome">
+        <br>
+        <label for="difficulty">Escolha a Dificuldade:</label>
+        <select id="difficulty">
+            <option value="easy">Fácil</option>
+            <option value="medium">Médio</option>
+            <option value="hard">Difícil</option>
+        </select>
+        <br>
+        <button id="startGame">Iniciar Jogo</button>
+        <button id="viewRecords">Ver Recordes</button>
+    </div>
+
+    <!-- Canvas do Jogo -->
+    <canvas id="gameCanvas"></canvas>
+
+    <!-- Placar de Recordes -->
+    <div id="scoreboard">
+        <div class="score">Pontuação: <span id="score">0</span></div>
+        <div class="lives">Vidas: <span id="lives">3</span></div>
+    </div>
+
+    <div id="records" class="hidden">
+        <h2>Recordes</h2>
+        <ul id="recordsList"></ul>
+        <button id="backToMenu">Voltar ao Menu</button>
+    </div>
+
+    <script src="js/scrypt.js"></script>
+    <script src="js/scrypt.js"></script>
+</body>
+</html>
